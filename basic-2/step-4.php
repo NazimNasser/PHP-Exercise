@@ -10,10 +10,9 @@ $x=$x/10;
 }  
 if($num==$total)  
 {  
-echo "Yes it is an Armstrong number\n";  
+echo "true";  
 }  
 else  
-{  
-echo "No it is not an armstrong number\n";  
+{  "false";  
 }  
 ?>  
