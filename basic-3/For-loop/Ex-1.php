@@ -1,5 +1,5 @@
 <?php
-function factorialNum($num){
+function sumNum($num){
     $sum = 0;
     for ($x = 0;$x < strlen($num);$x++) {
         $sum+= $num[$x];
@@ -8,9 +8,9 @@ function factorialNum($num){
 }
 
 
-echo factorialNum("654321");
-echo factorialNum("9999");
-echo factorialNum("745278");
-echo factorialNum("12345");
-echo factorialNum("75");
+echo sumNum("654321");
+echo sumNum("9999");
+echo sumNum("745278");
+echo sumNum("12345");
+echo sumNum("75");
 ?>
